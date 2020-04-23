@@ -1,0 +1,1 @@
+My assignments for Single Page Web Applications with AngularJS by Johns Hopkins University (via Coursera)

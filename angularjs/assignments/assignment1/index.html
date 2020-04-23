@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <style>body { font-size: 1.3em; }</style>
+    <title>Lunch Checker</title>
+  </head>
+  <body ng-app="foodItems">
+    <h1>Name Calculator</h1>
+    <div ng-controller="noOfFoodItems">
+      <div>
+        Your name:
+        <input type="text"
+          ng-model="text1"
+		  placeholder = "list comma separated dishes you usually have for lunch">
+      </div>
+	  <button class = "btn btn-default" ng-click="displayMessage()">Check If Too Much</button>
+      <div>The message is : {{message}}</div>
+    </div>
+  </body>
+</html>
